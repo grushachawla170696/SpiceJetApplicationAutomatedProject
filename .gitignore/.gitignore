@@ -1,0 +1,22 @@
+# Compiled class file
+target/
+.settings/
+/bin/
+/.classpath
+/.project
+/logs/
+/Screenshots/
+/test-output/
+
+log4j.xml
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
