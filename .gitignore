@@ -3,7 +3,6 @@ target/
 .settings/
 /bin/
 /.classpath
-/.project
 /logs/
 /Screenshots/
 /test-output/
