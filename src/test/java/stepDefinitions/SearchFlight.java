@@ -121,6 +121,23 @@ public class SearchFlight {
 		// Write code here that turns the phrase above into concrete actions
 
 	}
+	
+	@And("user clicks on passenger button")
+	public void user_clicks_on_passenger_button() {
+		SearchFilghtPage flightpage= new SearchFilghtPage(driver);
+		flightpage.passengerclick();
+		
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@And("user selects {int} adults")
+	public void user_selects_adults(Integer int1) {
+	    // Write code here that turns the phrase above into concrete actions
+		SearchFilghtPage flightpage= new SearchFilghtPage(driver);
+		flightpage.adusel();
+	}
+	
 	@And("user clicks on Currency button")
 	public void user_clicks_on_Currency_button() throws InterruptedException {
 		SearchFilghtPage flightpage= new SearchFilghtPage(driver);
