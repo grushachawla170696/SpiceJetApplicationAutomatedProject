@@ -11,6 +11,8 @@ Scenario: Search for Flight
 	And User selects destination location
 	And user selects departure date
 	And user selects return date
+	And user clicks on passenger button
+	And user selects 2 adults
 	And user clicks on Currency button
 	And user selects GBP currency
 	And user selects student radio button
