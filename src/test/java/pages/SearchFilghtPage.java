@@ -70,6 +70,17 @@ public class SearchFilghtPage
 	{
 		driver.findElement(return_dt_select).click();
 	}
+	
+	public void passengerclick()
+	{
+		driver.findElement(passenger_btn).click();
+	}
+	public void adusel()
+	{
+		driver.findElement(adultsel_btn).click();
+	}
+	
+	
 	public void clickcurrencybtn()
 	{
 		driver.findElement(currency_btn).click();
